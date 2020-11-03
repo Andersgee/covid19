@@ -1,0 +1,28 @@
+{
+  "name": "covid19",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/styles": "latest",
+    "gatsby": "latest",
+    "gatsby-image": "latest",
+    "gatsby-plugin-material-ui": "latest",
+    "gatsby-plugin-react-helmet": "latest",
+    "gatsby-plugin-sharp": "latest",
+    "gatsby-source-filesystem": "latest",
+    "gatsby-transformer-sharp": "latest",
+    "highcharts": "^8.2.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-fetch-hook": "^1.8.3",
+    "react-helmet": "latest",
+    "xlsx": "^0.16.8"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  }
+}
