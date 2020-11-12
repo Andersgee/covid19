@@ -106,9 +106,9 @@ export default function Index(props) {
       <Box ref={containerref} my={0} />
       <Typography variant="h5">How many already had it?</Typography>
       <Typography>
-        Its hard to know, but if we assume the real number of cases is 10x
+        Its hard to know, but if we assume the real number of cases is 5x
         larger than the confirmed number; then{" "}
-        {aspercent(10, regiondata.casesper100k)}% already had the virus in{" "}
+        {aspercent(5, regiondata.casesper100k)}% already had the virus in{" "}
         {region}.
       </Typography>
     </Container>
